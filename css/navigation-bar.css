@@ -8,7 +8,7 @@ body{
   .navigation-bar{
       display:flex;
       flex-direction:row; 
-      background-color:#f0f0ff;
+      background-color:#8a8adb;
       justify-content: space-evenly;
   }
   
