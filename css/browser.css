@@ -1,0 +1,29 @@
+main{
+    display:flex;
+}
+.sidebar{
+    background-color: rgb(236, 239, 241);
+    display: flex;
+    padding:10px;
+    flex-direction: column;
+    height:100vh;
+    row-gap:10px;
+    text-decoration: none;
+}
+.genre-tab{
+    color:black;
+}
+
+.catalog{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: row-wrap;
+    margin:20px;
+    gap:10px;
+}
+.catalog img{
+    width:220px;
+    height:260px;
+    object-fit:cover;
+}
+

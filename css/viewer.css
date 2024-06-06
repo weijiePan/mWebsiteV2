@@ -1,0 +1,17 @@
+.navigation-bar{
+    position:fixed;
+    width:100%;
+}
+.view-container{
+ display: flex;
+ flex-direction: column;
+ justify-content:center;
+ width:70%;
+ margin:auto auto;
+}
+
+.view-container img{
+    height:auto;
+    width:100%;
+}
+
