@@ -1,9 +1,92 @@
 body{
     background-color:#9a9aeb;
 }
-.home-information{
-    color:white;
+
+main{
+    display: flex;
+    flex-direction: column;
 }
-.home-information{
-    font-size:3rem;
+
+.title-and-description{
+    margin:0 2%;
+    border-radius:8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:40vh;
+    background-image:url(https://www.lbcc.edu/sites/main/files/imagecache/carousel/main-images/reading_hero.jpg?1624293277);
+}
+.home-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:7rem;
+    text-shadow:2px 3px 2px rgb(202, 37, 37);
+    color:rgba(60, 32, 161, 0.918);
+    align-items: center;
+}
+.description{
+    font-family:serif;
+    text-align: center;
+    font-size:2rem;
+    color:rgb(128, 119, 119);
+    border-radius: 15px;
+    background-color: #f0dcc2;
+}
+.gallery{
+    padding:20px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    gap:5px;
+    background-color: azure;
+    justify-content: center;
+}
+.gallery *{
+    width:auto;
+    height:400px;
+    
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.testimonial{
+    display:flex;
+    flex-direction: row;
+    margin:10px;
+}
+.testimonial-img{
+    width:20vh;
+    height:auto;
+}
+.quote{
+    background-color: #f0dcc2;
+    width:100%;
+}
+.testimonial-quote{
+    text-align: center;
+    font-size:5rem;
+    
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align:center;
+    margin:-15px;
+    padding:30px;
+}
+.contact{
+    font-size:1rem;
+    margin:30px;
+}
+.address{
+    font-size:2rem;
 }
